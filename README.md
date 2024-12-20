@@ -49,7 +49,7 @@ A machine learning library such as TensorFlow or scikit-learn for model training
 
 4. Real-Time Detection
 
-Objective: Detect ASL signs in real-time using the trained model.
+Objective: Detect ASL signs in real time using the trained model.
 
 Steps:
 
@@ -63,4 +63,11 @@ Tools:
 OpenCV for capturing video and displaying results.
 NumPy for preprocessing frames.
 The trained machine learning model for predictions.
-The time module to measure performance and add delays if necessary.
+The time module measures performance and adds delays if necessary.
+
+
+Outputs: 
+
+![Screenshot 2024-12-20 143324](https://github.com/user-attachments/assets/da574c23-54f1-4263-9407-b9cd763b168d)
+![Screenshot 2024-12-20 143357](https://github.com/user-attachments/assets/0a2a6ec4-d441-4dec-8f2a-b2c97460f10e)
+![Screenshot 2024-12-20 143407](https://github.com/user-attachments/assets/a927136e-2d5d-445d-bfc7-678e5d8c760e)
