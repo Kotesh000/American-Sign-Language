@@ -1,72 +1,26 @@
-Creating an American Sign Language (ASL) detection system using OpenCV, NumPy, math, and time modules involves multiple steps, including data collection, image processing, model training, and real-time detection. 
+# ASL Detection System
 
-1. Data Collection
+This project uses OpenCV, NumPy, and machine learning techniques to recognize American Sign Language (ASL) signs. The system captures images of hands making ASL signs and processes them to train a model for real-time detection.
 
-Objective: Collect and label images of different ASL signs.
+## Repository Contents
+- **Code**: Source code for data collection, image processing, model training, and real-time detection.
+- **Data**: Dataset of ASL signs used for training the model.
 
-Steps:
+## Features
+- **Data Collection**: Images of various ASL signs are captured.
+- **Image Processing**: Preprocessing with techniques like thresholding and resizing.
+- **Model Training**: A machine learning model (e.g., CNN) is trained to recognize ASL signs.
+- **Real-Time Detection**: Recognizes ASL signs from webcam video input.
 
-Use a webcam to capture images of hands making various ASL signs.
+## Usage
+1. Clone the repository.
+2. Install libraries with `pip install -r requirements.txt`.
+3. Capture images with a webcam or use the real-time detection script.
 
-Organize the images into directories, each representing a different sign.
+## Contributions
+Feel free to contribute! Submit pull requests or open issues for improvements.
 
-Tools:
-OpenCV for capturing images.
-
-2. Image Processing
-
-Objective: Preprocess images to make them suitable for model training.
-
-Steps:
-
-Convert images to grayscale.
-Apply Gaussian blur to reduce noise.
-Use background subtraction to isolate the hand.
-Apply binary thresholding to create a binary image.
-Resize images to a consistent size.
-
-Tools:
-
-OpenCV for image conversion, blurring, and thresholding.
-NumPy for array manipulations.
-
-3. Model Training
-
-Objective: Train a machine learning model to recognize ASL signs from images.
-
-Steps:
-
-Extract features from preprocessed images (e.g., contours, Hu Moments, or pixel intensities).
-Split the data into training and testing sets.
-Train a machine learning model (e.g., a Convolutional Neural Network) on the training data.
-Evaluate the model on the testing data.
-
-Tools:
-
-OpenCV for feature extraction.
-NumPy for handling datasets.
-A machine learning library such as TensorFlow or scikit-learn for model training.
-
-4. Real-Time Detection
-
-Objective: Detect ASL signs in real time using the trained model.
-
-Steps:
-
-Capture video frames from the webcam.
-Preprocess each frame as done during training.
-Use the trained model to predict the ASL sign.
-Display the prediction on the video feed.
-
-Tools:
-
-OpenCV for capturing video and displaying results.
-NumPy for preprocessing frames.
-The trained machine learning model for predictions.
-The time module measures performance and adds delays if necessary.
-
-
-Outputs: 
+## Outputs
 
 ![Screenshot 2024-12-20 143324](https://github.com/user-attachments/assets/da574c23-54f1-4263-9407-b9cd763b168d)
 ![Screenshot 2024-12-20 143357](https://github.com/user-attachments/assets/0a2a6ec4-d441-4dec-8f2a-b2c97460f10e)
